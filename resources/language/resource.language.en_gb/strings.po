@@ -1,0 +1,453 @@
+# Addon Name: Tribler
+# Addon id: plugin.video.tribler
+# Addon Provider: Bohao Zhang
+msgid ""
+msgstr ""
+
+msgctxt "#32001"
+msgid "Recommanded"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Discovered"
+msgstr ""
+
+msgctxt "#32003"
+msgid "My Channel"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Subscriptions"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Downloads"
+msgstr ""
+
+msgctxt "#32006"
+msgid "Search"
+msgstr ""
+
+msgctxt "#32007"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Torrents"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Channels"
+msgstr ""
+
+msgctxt "#32051"
+msgid "ALL"
+msgstr ""
+
+msgctxt "#32052"
+msgid "DOWNLOADING"
+msgstr ""
+
+msgctxt "#32053"
+msgid "COMPLETED"
+msgstr ""
+
+msgctxt "#32054"
+msgid "ACTIVE"
+msgstr ""
+
+msgctxt "#32055"
+msgid "INACTIVE"
+msgstr ""
+
+msgctxt "#32061"
+msgid "All"
+msgstr ""
+
+msgctxt "#32062"
+msgid "Channels"
+msgstr ""
+
+msgctxt "#32063"
+msgid "Torrents"
+msgstr ""
+
+msgctxt "#32701"
+msgid "GENERAL"
+msgstr ""
+
+msgctxt "#32702"
+msgid "CONNECTION"
+msgstr ""
+
+msgctxt "#32703"
+msgid "BINDWIDTH"
+msgstr ""
+
+msgctxt "#32704"
+msgid "SEEDING"
+msgstr ""
+
+msgctxt "#32705"
+msgid "ANONYMITY"
+msgstr ""
+
+msgctxt "#32710"
+msgid "Family filter"
+msgstr ""
+
+msgctxt "#32711"
+msgid "Family filter enabled"
+msgstr ""
+
+msgctxt "#32712"
+msgid "Download location"
+msgstr ""
+
+msgctxt "#32713"
+msgid "Save files to"
+msgstr ""
+
+msgctxt "#32714"
+msgid "Always ask download settings"
+msgstr ""
+
+msgctxt "#32715"
+msgid "Default download settings"
+msgstr ""
+
+msgctxt "#32716"
+msgid "Download anonymously using proxies"
+msgstr ""
+
+msgctxt "#32717"
+msgid "Encrpted anonymous seeding using proxies"
+msgstr ""
+
+msgctxt "#32718"
+msgid "Watch folder"
+msgstr ""
+
+msgctxt "#32719"
+msgid "Enable watch folder"
+msgstr ""
+
+msgctxt "#32720"
+msgid "Location"
+msgstr ""
+
+msgctxt "#32721"
+msgid "Developer mode"
+msgstr ""
+
+msgctxt "#32722"
+msgid "Enable developer mode?"
+msgstr ""
+
+msgctxt "#32730"
+msgid "Firewall status"
+msgstr ""
+
+msgctxt "#32731"
+msgid "Current port"
+msgstr ""
+
+msgctxt "#32732"
+msgid "Torrent proxy settings"
+msgstr ""
+
+msgctxt "#32733"
+msgid "Type"
+msgstr ""
+
+msgctxt "#32734"
+msgid "Server"
+msgstr ""
+
+msgctxt "#32735"
+msgid "Port"
+msgstr ""
+
+msgctxt "#32736"
+msgid "Username"
+msgstr ""
+
+msgctxt "#32737"
+msgid "Password"
+msgstr ""
+
+msgctxt "#32738"
+msgid "BitTorrent features"
+msgstr ""
+
+msgctxt "#32739"
+msgid "Enabled bandwidth Management(uTP)"
+msgstr ""
+
+msgctxt "#32740"
+msgid "Max connections per download"
+msgstr ""
+
+msgctxt "#32741"
+msgid "0=unlimited"
+msgstr ""
+
+msgctxt "#32742"
+msgid "None"
+msgstr ""
+
+msgctxt "#32743"
+msgid "Socks4"
+msgstr ""
+
+msgctxt "#32744"
+msgid "Socks5"
+msgstr ""
+
+msgctxt "#32745"
+msgid "Socks5 with authentication"
+msgstr ""
+
+msgctxt "#32746"
+msgid "HTTP"
+msgstr ""
+
+msgctxt "#32747"
+msgid "HTTP with authentication"
+msgstr ""
+
+msgctxt "#32750"
+msgid "Bandwidth limits"
+msgstr ""
+
+msgctxt "#32751"
+msgid "Upload rate limit"
+msgstr ""
+
+msgctxt "#32752"
+msgid "Download rate limit"
+msgstr ""
+
+msgctxt "#32753"
+msgid "KB/s (0=unlimited)"
+msgstr ""
+
+msgctxt "#32754"
+msgid "Note that these settings apply to anonymous and plain downloads"
+msgstr ""
+
+msgctxt "#32760"
+msgid "Seeding options"
+msgstr ""
+
+msgctxt "#32761"
+msgid "Unlimited seeding"
+msgstr ""
+
+msgctxt "#32762"
+msgid "Time limited seeding"
+msgstr ""
+
+msgctxt "#32763"
+msgid "No seeding"
+msgstr ""
+
+msgctxt "#32764"
+msgid "Up/down ratio limited seeding"
+msgstr ""
+
+msgctxt "#32765"
+msgid "Seed until up/down ratio is bigger than"
+msgstr ""
+
+msgctxt "#32766"
+msgid "Seeding for (hours)"
+msgstr ""
+
+msgctxt "#32767"
+msgid "Seeding for (minutes)"
+msgstr ""
+
+msgctxt "#32770"
+msgid "Anonymity"
+msgstr ""
+
+msgctxt "#32771"
+msgid "Allow Tribler to be an exit node"
+msgstr ""
+
+msgctxt "#32772"
+msgid "By allowing Tribler to be an exit node, your computer will act as a proxy for other Tribler users' BitTorrent traffic, be it seeding or downloading. Check you local laws and make sure you are aware of the implications of enabling this checkbox."
+msgstr ""
+
+msgctxt "#32773"
+msgid "Proxy downloading"
+msgstr ""
+
+msgctxt "#32774"
+msgid "Mode"
+msgstr ""
+
+msgctxt "#32775"
+msgid "High Speed, minimum anonymity"
+msgstr ""
+
+msgctxt "#32776"
+msgid "Medium Speed, medium anonymity"
+msgstr ""
+
+msgctxt "#32777"
+msgid "Low Speed, high anonymity"
+msgstr ""
+
+msgctxt "#32778"
+msgid "Multichain"
+msgstr ""
+
+msgctxt "#32779"
+msgid "Enable multichain"
+msgstr ""
+
+msgctxt "#32780"
+msgid "Multichain is a blockchain-based way to keep track of sharing ratio, and eventually prevent freeriding. It is currently still in an early phase of development."
+msgstr ""
+
+msgctxt "#33001"
+msgid "Subscribe"
+msgstr ""
+
+msgctxt "#33002"
+msgid "Unsubscribe"
+msgstr ""
+
+msgctxt "#33003"
+msgid "Subscribe/Unsubscribe"
+msgstr ""
+
+msgctxt "#33004"
+msgid "Select an action"
+msgstr ""
+
+msgctxt "#33005"
+msgid "Watch online"
+msgstr ""
+
+msgctxt "#33006"
+msgid "Download"
+msgstr ""
+
+msgctxt "#33007"
+msgid "Both"
+msgstr ""
+
+msgctxt "#33008"
+msgid "Select the download directory"
+msgstr ""
+
+msgctxt "#33009"
+msgid "Anonymity options"
+msgstr ""
+
+msgctxt "#33010"
+msgid "Download and seed anonymously"
+msgstr ""
+
+msgctxt "#33011"
+msgid "Seed anonymously only"
+msgstr ""
+
+msgctxt "#33012"
+msgid "No anonymity"
+msgstr ""
+
+msgctxt "#33101"
+msgid "Progress"
+msgstr ""
+
+msgctxt "#33102"
+msgid "Speed"
+msgstr ""
+
+msgctxt "#33103"
+msgid "Destination"
+msgstr ""
+
+msgctxt "#33104"
+msgid "seeder"
+msgstr ""
+
+msgctxt "#33105"
+msgid "seeders"
+msgstr ""
+
+msgctxt "#33106"
+msgid "leecher"
+msgstr ""
+
+msgctxt "#33107"
+msgid "leechers"
+msgstr ""
+
+msgctxt "#33108"
+msgid "leechers"
+msgstr ""
+
+msgctxt "#33109"
+msgid "ETA"
+msgstr ""
+
+msgctxt "#33120"
+msgid "Play"
+msgstr ""
+
+msgctxt "#33121"
+msgid "Info"
+msgstr ""
+
+msgctxt "#33122"
+msgid "Start"
+msgstr ""
+
+msgctxt "#33123"
+msgid "Stop"
+msgstr ""
+
+msgctxt "#33124"
+msgid "Play"
+msgstr ""
+
+msgctxt "#33125"
+msgid "Remove"
+msgstr ""
+
+msgctxt "#33126"
+msgid "CAUTION!"
+msgstr ""
+
+msgctxt "#33127"
+msgid "Are you sure you want to remove this download?"
+msgstr ""
+
+msgctxt "#33128"
+msgid "Do you also want to remove the data along with this download?"
+msgstr ""
+
+msgctxt "#33201"
+msgid "Input the keyword"
+msgstr ""
+
+msgctxt "#33202"
+msgid "Searching"
+msgstr ""
+
+msgctxt "#33203"
+msgid "channels found"
+msgstr ""
+
+msgctxt "#33204"
+msgid "torrents found"
+msgstr ""
+
+msgctxt "#33205"
+msgid "Note: Result may varies each time you search"
+msgstr ""

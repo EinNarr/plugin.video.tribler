@@ -1,0 +1,453 @@
+# Addon Name: Tribler
+# Addon id: plugin.video.tribler
+# Addon Provider: Bohao Zhang
+msgid ""
+msgstr ""
+
+msgctxt "#32001"
+msgid "推荐内容"
+msgstr ""
+
+msgctxt "#32002"
+msgid "已发现频道"
+msgstr ""
+
+msgctxt "#32003"
+msgid "我的频道"
+msgstr ""
+
+msgctxt "#32004"
+msgid "我订阅的频道"
+msgstr ""
+
+msgctxt "#32005"
+msgid "下载管理"
+msgstr ""
+
+msgctxt "#32006"
+msgid "搜索"
+msgstr ""
+
+msgctxt "#32007"
+msgid "设置"
+msgstr ""
+
+msgctxt "#32011"
+msgid "热门资源"
+msgstr ""
+
+msgctxt "#32012"
+msgid "热门频道"
+msgstr ""
+
+msgctxt "#32051"
+msgid "全部任务"
+msgstr ""
+
+msgctxt "#32052"
+msgid "正在下载"
+msgstr ""
+
+msgctxt "#32053"
+msgid "已完成"
+msgstr ""
+
+msgctxt "#32054"
+msgid "活动中"
+msgstr ""
+
+msgctxt "#32055"
+msgid "已停止"
+msgstr ""
+
+msgctxt "#32061"
+msgid "全部"
+msgstr ""
+
+msgctxt "#32062"
+msgid "频道"
+msgstr ""
+
+msgctxt "#32063"
+msgid "资源"
+msgstr ""
+
+msgctxt "#32701"
+msgid "常规"
+msgstr ""
+
+msgctxt "#32702"
+msgid "连接"
+msgstr ""
+
+msgctxt "#32703"
+msgid "带宽"
+msgstr ""
+
+msgctxt "#32704"
+msgid "做种"
+msgstr ""
+
+msgctxt "#32705"
+msgid "匿名"
+msgstr ""
+
+msgctxt "#32710"
+msgid "家庭过滤器"
+msgstr ""
+
+msgctxt "#32711"
+msgid "启用家庭过滤器"
+msgstr ""
+
+msgctxt "#32712"
+msgid "下载路径"
+msgstr ""
+
+msgctxt "#32713"
+msgid "文件存储在"
+msgstr ""
+
+msgctxt "#32714"
+msgid "下载前总是询问"
+msgstr ""
+
+msgctxt "#32715"
+msgid "默认下载设置"
+msgstr ""
+
+msgctxt "#32716"
+msgid "使用代理服务器匿名下载"
+msgstr ""
+
+msgctxt "#32717"
+msgid "使用代理服务器加密匿名上传"
+msgstr ""
+
+msgctxt "#32718"
+msgid "观看文件夹"
+msgstr ""
+
+msgctxt "#32719"
+msgid "启用观看文件夹"
+msgstr ""
+
+msgctxt "#32720"
+msgid "路径"
+msgstr ""
+
+msgctxt "#32721"
+msgid "开发者模式"
+msgstr ""
+
+msgctxt "#32722"
+msgid "启用开发者模式"
+msgstr ""
+
+msgctxt "#32730"
+msgid "防火墙参数"
+msgstr ""
+
+msgctxt "#32731"
+msgid "当前端口"
+msgstr ""
+
+msgctxt "#32732"
+msgid "Torrent协议设置"
+msgstr ""
+
+msgctxt "#32733"
+msgid "类型"
+msgstr ""
+
+msgctxt "#32734"
+msgid "服务器"
+msgstr ""
+
+msgctxt "#32735"
+msgid "端口"
+msgstr ""
+
+msgctxt "#32736"
+msgid "用户名"
+msgstr ""
+
+msgctxt "#32737"
+msgid "密码"
+msgstr ""
+
+msgctxt "#32738"
+msgid "BitTorrent设置"
+msgstr ""
+
+msgctxt "#32739"
+msgid "启用带宽管理(µTP)"
+msgstr ""
+
+msgctxt "#32740"
+msgid "每个下载任务最大连接数"
+msgstr ""
+
+msgctxt "#32741"
+msgid "0=无限制"
+msgstr ""
+
+msgctxt "#32742"
+msgid "无"
+msgstr ""
+
+msgctxt "#32743"
+msgid "Socks4"
+msgstr ""
+
+msgctxt "#32744"
+msgid "Socks5"
+msgstr ""
+
+msgctxt "#32745"
+msgid "带验证的Socks5"
+msgstr ""
+
+msgctxt "#32746"
+msgid "HTTP"
+msgstr ""
+
+msgctxt "#32747"
+msgid "带验证的HTTP"
+msgstr ""
+
+msgctxt "#32750"
+msgid "带宽限制"
+msgstr ""
+
+msgctxt "#32751"
+msgid "上传速率限制"
+msgstr ""
+
+msgctxt "#32752"
+msgid "下载速率限制"
+msgstr ""
+
+msgctxt "#32753"
+msgid "KB/s (0=无限制)"
+msgstr ""
+
+msgctxt "#32754"
+msgid "注意：这些设置对匿名下载和普通下载均生效"
+msgstr ""
+
+msgctxt "#32760"
+msgid "做种模式"
+msgstr ""
+
+msgctxt "#32761"
+msgid "无限制做种"
+msgstr ""
+
+msgctxt "#32762"
+msgid "时间"
+msgstr ""
+
+msgctxt "#32763"
+msgid "不做种"
+msgstr ""
+
+msgctxt "#32764"
+msgid "分享率"
+msgstr ""
+
+msgctxt "#32765"
+msgid "做种知道分享率大于"
+msgstr ""
+
+msgctxt "#32766"
+msgid "做种小时数"
+msgstr ""
+
+msgctxt "#32767"
+msgid "做种分钟数"
+msgstr ""
+
+msgctxt "#32770"
+msgid "匿名性"
+msgstr ""
+
+msgctxt "#32771"
+msgid "允许Tribler将本机作为出口节点"
+msgstr ""
+
+msgctxt "#32772"
+msgid "请注意： 开启本选项后，您的电脑将成为其他Tribler用户的BT上传和下载的代理服务器。开启本功能前请务必确认您了解本功能的含义，以及确认本功能在您所在地是否合法"
+msgstr ""
+
+msgctxt "#32773"
+msgid "代理设置"
+msgstr ""
+
+msgctxt "#32774"
+msgid "模式"
+msgstr ""
+
+msgctxt "#32775"
+msgid "最高速度，最低匿名性"
+msgstr ""
+
+msgctxt "#32776"
+msgid "中等速度，中等匿名性"
+msgstr ""
+
+msgctxt "#32777"
+msgid "最低速度，最高匿名性"
+msgstr ""
+
+msgctxt "#32778"
+msgid "Multichain"
+msgstr ""
+
+msgctxt "#32779"
+msgid "启用多重链(Multichain)"
+msgstr ""
+
+msgctxt "#32780"
+msgid "多重链是一种基于区块链的，用以追踪分享率反吸血的全新技术。请注意本功能目前仍处于早期开发阶段"
+msgstr ""
+
+msgctxt "#33001"
+msgid "订阅"
+msgstr ""
+
+msgctxt "#33002"
+msgid "取消订阅"
+msgstr ""
+
+msgctxt "#33003"
+msgid "订阅/取消订阅"
+msgstr ""
+
+msgctxt "#33004"
+msgid "请选择"
+msgstr ""
+
+msgctxt "#33005"
+msgid "在线观看"
+msgstr ""
+
+msgctxt "#33006"
+msgid "下载"
+msgstr ""
+
+msgctxt "#33007"
+msgid "在线观看并后台下载"
+msgstr ""
+
+msgctxt "#33008"
+msgid "选择存储路径"
+msgstr ""
+
+msgctxt "#33009"
+msgid "匿名性设置"
+msgstr ""
+
+msgctxt "#33010"
+msgid "匿名下载并做种"
+msgstr ""
+
+msgctxt "#33011"
+msgid "仅做种匿名"
+msgstr ""
+
+msgctxt "#33012"
+msgid "不匿名"
+msgstr ""
+
+msgctxt "#33101"
+msgid "进度"
+msgstr ""
+
+msgctxt "#33102"
+msgid "速度"
+msgstr ""
+
+msgctxt "#33103"
+msgid "存储路径"
+msgstr ""
+
+msgctxt "#33104"
+msgid "做种者"
+msgstr ""
+
+msgctxt "#33105"
+msgid "做种者"
+msgstr ""
+
+msgctxt "#33106"
+msgid "下载者"
+msgstr ""
+
+msgctxt "#33107"
+msgid "下载者"
+msgstr ""
+
+msgctxt "#33108"
+msgid "下载者"
+msgstr ""
+
+msgctxt "#33109"
+msgid "剩余时间"
+msgstr ""
+
+msgctxt "#33120"
+msgid "播放"
+msgstr ""
+
+msgctxt "#33121"
+msgid "详细信息"
+msgstr ""
+
+msgctxt "#33122"
+msgid "开始下载"
+msgstr ""
+
+msgctxt "#33123"
+msgid "暂停下载"
+msgstr ""
+
+msgctxt "#33124"
+msgid "播放"
+msgstr ""
+
+msgctxt "#33125"
+msgid "删除"
+msgstr ""
+
+msgctxt "#33126"
+msgid "注意!"
+msgstr ""
+
+msgctxt "#33127"
+msgid "您确定要移除这个下载任务吗?"
+msgstr ""
+
+msgctxt "#33128"
+msgid "您要同时移除已下载内容吗?"
+msgstr ""
+
+msgctxt "#33201"
+msgid "请输入关键词"
+msgstr ""
+
+msgctxt "#33202"
+msgid "正在搜索中"
+msgstr ""
+
+msgctxt "#33203"
+msgid "个频道已发现"
+msgstr ""
+
+msgctxt "#33204"
+msgid "个种子已发现"
+msgstr ""
+
+msgctxt "#33205"
+msgid "注意: 每次的搜索结果可能并不相同"
+msgstr ""

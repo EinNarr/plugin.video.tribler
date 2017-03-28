@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="32701">
+		<setting id="filter"			type="lsep" 	label="32710"/>
+		<setting id="filter.enable"		type="bool" 	label="32711" default="true"/>
+		<setting id="dllocation"		type="lsep" 	label="32712"/>
+		<setting id="dllocation.path"	type="folder" 	label="32713" source="auto" option="writeable" value=""/>
+		<setting id="dllocation.ask" 	type="bool" 	label="32714" default="true"/>
+		<setting id="dlsetting" 		type="lsep" 	label="32715"/>
+		<setting id="dlsetting.anony" 	type="bool" 	label="32716" default="true"/>
+		<setting id="dlsetting.encrypt" type="bool"		label="32717" default="true" enable="eq(-1,false)"/>
+		<setting id="wfolder" 			type="lsep" 	label="32718"/>
+		<setting id="wfolder.enable" 	type="bool" 	label="32719" default="false"/>
+		<setting id="wfolder.path" 		type="folder" 	label="32720" source="auto" option="writeable" value="" visible="eq(-1,true)"/>
+		<setting id="devmode" 			type="lsep" 	label="32721"/>
+		<setting id="devmode.enable" 	type="bool" 	label="32722" default="false"/>
+	</category>
+
+	<category label="32702">
+		<setting id="firewall" 			type="lsep" 	label="32730"/>
+		<setting id="firewall.port" 	type="number" 	label="32731" default="7760" enable="false"/>
+		<setting id="tproxy" 			type="lsep" 	label="32732"/>
+		<setting id="tproxy.type" 		type="enum" 	label="32733" lvalues="32742|32743|32744|32745|32746|32747"/>
+		<setting id="tproxy.server" 	type="text" 	label="32734" visible="!eq(-1,0)"/>
+		<setting id="tproxy.port" 		type="number" 	label="32735" visible="!eq(-2,0)"/>
+		<setting id="tproxy.user" 		type="text" 	label="32736" visible="!eq(-3,0)"/>
+		<setting id="tproxy.pass" 		type="text" 	label="32737" visible="!eq(-4,0)" option="hidden"/>
+		<setting id="btfeature" 		type="lsep" 	label="32738"/>
+		<setting id="btfeature.utp" 	type="bool" 	label="32739" default="true"/>
+		<setting id="btfeature.connect" type="number" 	label="32740" default="0"/>
+		<setting id="btfeature.unit" 	type="lsep" 	label="32741"/>
+	</category>
+
+	<category label="32703">
+		<setting id="bwlimit" 			type="lsep" 	label="32750"/>
+		<setting id="bwlimit.upload" 	type="number" 	label="32751" default="0"/>
+		<setting id="bwlimit.upunit" 	type="lsep" 	label="32753"/>
+		<setting id="bwlimit.download" 	type="number" 	label="32752" default="0"/>
+		<setting id="bwlimit.downunit" 	type="lsep" 	label="32753"/>
+		<setting id="bwlimit.note" 		type="lsep" 	label="32754"/>
+	</category>
+
+	<category label="32704">
+		<setting id="seeding.option"	type="enum" 	label="32760" lvalues="32761|32762|32763|32764"/>
+		<setting id="seeding.ratio" 	type="slider" 	label="32765" range="0.1,0.1,100" default="2.0" subsetting="true" visible="eq(-1,3)"/>
+		<setting id="seeding.hour" 	type="slider" 	label="32766" range="0,1,240" default="1" option="int" subsetting="true" visible="eq(-2,1)"/>
+		<setting id="seeding.min" 	type="slider" 	label="32767" range="0,1,060" default="0" option="int" subsetting="true" visible="eq(-3,1)"/>
+	</category>
+
+	<category label="32705">
+		<setting id="anony" 			type="lsep" 	label="32770"/>
+		<setting id="anony.exitnode" 	type="bool" 	label="32771" default="false"/>
+		<setting id="anony.note" 		type="action" 	label="32772" action=""/>
+		<setting id="proxydl" 			type="lsep" 	label="32773"/>
+		<setting id="proxydl.speed" 	type="enum" 	label="32774" lvalues="32775|32776|32777"/>
+		<setting id="multichain" 		type="lsep" 	label="32778"/>
+		<setting id="multichain.enable" type="bool" 	label="32779" default="false"/>
+		<setting id="multichain.note" 	type="action" 	label="32780" action=""/>
+	</category>
+</settings>

@@ -1,0 +1,23 @@
+<addon id="plugin.video.tribler"
+	name="Tribler"
+	version="0.0.1"
+	provider-name="Bohao Zhang">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="script.tribler" version="0.0.1"/>
+		<import addon="script.module.twisted" version="13.2.0"/>
+		<import addon="script.module.zope.interface" version="4.0.5"/>
+	</requires>
+	<!-- <extension point="xbmc.service" library="service.py" start="startup" /> -->
+	<extension point="xbmc.python.pluginsource" library="tribler.py">
+	<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Tribler</summary>
+		<summary lang="zh">Tribler</summary>
+		<description>Tribler under construction</description>
+		<description lang="zh">helloworld，python</description>
+		<disclaimer>For demonstration only</disclaimer>
+	</extension>
+</addon>
