@@ -1,33 +1,38 @@
-import time
-# import xbmc
+import xbmc
+import paths
+
 import sys
-import signal
-from os.path import abspath, join, dirname
-sys.path.insert(0, join(abspath(dirname('__file__')), 'tribler'))
+import os
+import threading
+#import signal
+
+instdir = "C:\\Program Files (x86)\\Tribler"
+# add tribler precompiled cbindings to path so they can be found by import modules
+sys.path.append(instdir)
+# add tribler compiled elf libraries to os path so they can be found with ctypes
+os.environ['PATH'] = "%s;%s" % (instdir, os.environ['PATH'])
+# to do :  make this approach generic and automatic for different architectures and oses
+# precompiled binary dependence is only for cryptography and M2Crypto libs
+# rest of libraries are pure pythonic, some of them are found in kodi repos
+# but most of them are not, best approach is to make those pure pythonic libraries
+# external addons to reduce addons size and future maintanence (ie:cherrypy, tempora etc..)
+
 
 from twisted.internet import reactor
 
-from Tribler.Core.Session import Session
 from Tribler.Core.Modules.process_checker import ProcessChecker
 from Tribler.Core.Session import Session
 from Tribler.Core.SessionConfig import SessionStartupConfig
 
-def start_tribler_core():
-    """
-    This method is invoked by multiprocessing when the Tribler core is started and will start a Tribler session.
-    Note that there is no direct communication between the GUI process and the core: all communication is performed
-    through the HTTP API.
-    """
-    from twisted.internet import reactor
 
-    def on_tribler_shutdown(_):
+class server(threading.Thread):
+
+    def shutdown(self, *_):
+        xbmc.log("Stopping Tribler core")
+        self.session.shutdown()
         reactor.stop()
 
-    def shutdown(session, *_):
-        logging.info("Stopping Tribler core")
-        session.shutdown().addCallback(on_tribler_shutdown)
-
-    def start_tribler():
+    def _start_tribler(self):
         config = SessionStartupConfig().load()
         config.set_http_api_port(8085)
         config.set_http_api_enabled(True)
@@ -38,21 +43,26 @@ def start_tribler_core():
             return
 
         session = Session(config)
+        self.session = session
 
-        signal.signal(signal.SIGTERM, lambda signum, stack: shutdown(session, signum, stack))
+        #signal.signal(signal.SIGTERM, lambda signum, stack: self.shutdown(session, signum, stack))
         session.start()
-    reactor.callWhenRunning(start_tribler)
-    reactor.run()
+        xbmc.log("Started Tribler core")
+
+    def run(self):
+        xbmc.log("Starting Tribler core")
+        reactor.callWhenRunning(self._start_tribler)
+        reactor.run(installSignalHandlers=0)
+        xbmc.log("Stopped Tribler core")
+
 
 if __name__ == '__main__':
-	# from multiprocessing import Process
-	# process=Process(target=start_tribler_core)
-	# process.start()
-	# if reactor.running:
+    monitor = xbmc.Monitor()
+    core = server()
+    core.start()
 
-	start_tribler_core()
-	# while not monitor.abortRequested():
-	# 	pass
-	# import requests
-	# r = requests.put("http://localhost:8085/shutdown")
-	
+    while not monitor.abortRequested():
+        if monitor.waitForAbort(5):
+            core.shutdown()
+            break
+core.join()
