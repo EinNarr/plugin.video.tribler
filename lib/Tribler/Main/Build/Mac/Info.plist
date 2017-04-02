@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>CFBundleVersion</key>
+        <string>__VERSION__</string>
+        <key>CFBundleShortVersionString</key>
+        <string>__VERSION__</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>1.0</string>
+        <key>CFBundleDisplayName</key>
+        <string>tribler</string>
+        <key>CFBundleIconFile</key>
+        <string>tribler.icns</string>
+        <key>CFBundleIdentifier</key>
+        <string>nl.tudelft.tribler</string>
+        <key>CFBundleURLTypes</key>
+        <array>
+            <dict>
+                <key>CFBundleURLName</key>
+                <string>magnet URL</string>
+                <key>CFBundleURLSchemes</key>
+                <array>
+                    <string>magnet</string>
+                </array>
+                </dict>
+        </array>
+        <key>CFBundleDocumentTypes</key>
+        <array>
+            <dict>
+                <key>CFBundleTypeExtensions</key>
+                <array>
+                    <string>torrent</string>
+                </array>
+                <key>CFBundleTypeIconFile</key>
+                <string>tribler.icns</string>
+                <key>CFBundleTypeName</key>
+                <string>BitTorrent Document</string>
+                <key>LSHandlerRank</key>
+                <string>Owner</string>
+            </dict>
+        </array>
+        <key>CFBundleExecutable</key>
+        <string>MacOS/tribler</string>
+        <key>CFBundleName</key>
+        <string>tribler</string>
+        <key>CFBundlePackageType</key>
+        <string>APPL</string>
+        <key>NSHighResolutionCapable</key>
+        <string>True</string>
+        <key>LSBackgroundOnly</key>
+        <string>0</string>
+    </dict>
+</plist>
