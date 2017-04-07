@@ -4,17 +4,7 @@
 	provider-name="Bohao Zhang">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
-		<import addon="script.module.m2crypto" version="0.21.1"/>
-		<import addon="script.module.cryptography" version="1.2.1"/>
-		<import addon="script.module.libnacl" version="1.4.4"/>
-		<import addon="script.module.libtorrent" version="1.0.8"/>
-		<import addon="script.module.apsw" version="3.15.0"/>
-		<import addon="script.module.pywin32" version="220"/>
-		<import addon="script.module.plyvel" version="0.9"/>
-		<import addon="script.module.netifaces" version="0.10.5"/>
-		<import addon="script.module.six" version="1.9.0"/>
-		<import addon="script.module.chardet" version="2.2.1"/>
-		<import addon="script.module.twisted" version="13.2.0"/>
+		<import addon="script.module.triblercore" version="7.0"/>
 		<import addon="script.module.requests" version="2.12.4"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="tribler.py">
